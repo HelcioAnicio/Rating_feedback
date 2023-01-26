@@ -1,4 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 1366px; */
+    width: 100vw;
+    /* height: 768px; */
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+main {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    
+
+}
+
+.box_picture {
+    border: 1px solid blue;
+
+}
+
+.title {
+    border: 1px solid red;
+
+}
+
+.text {
+    border: 1px solid green;
+
+}
+
+form {
+    border: 1px solid gold;
+
+}
+
+.div_feedback {
+    border: 1px solid gray;
+
+}
+
+li {
+    border: 1px solid pink;
+    list-style: none;
+}
+
+button {
+    border: 1px solid orange;
+    
+}
 
 
 /* 
