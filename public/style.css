@@ -9,50 +9,87 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 }
 
 main {
-    border: 1px solid white;
-    border-radius: 15px;
-    width: 400px;
-    height: 300px;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
     background-color: hsl(213, 19%, 18%);
-    
-
+    padding: 30px 30px;
+    box-sizing: border-box;
 }
 
 .box_picture {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    border-radius: 100%;
+    background-color: hsla(217, 12%, 63%, 0.144);
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+img {
+    width: 20px;
+    height: 20px;
 }
 
 .title {
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
+    color: white;
+    font: 700 25px 'Overpass', sans-serif;
 }
 
-.text {
-    border: 1px solid green;
 
+.text {
+    /* border: 1px solid green; */
+    font: 400 15px 'Overpass', sans-serif;
+    line-height: 23px;
+    color: hsl(216, 12%, 54%);
 }
 
 form {
-    border: 1px solid gold;
-
+    /* border: 1px solid gold; */
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
+    flex-wrap: wrap;
 }
 
 .div_feedback {
-    border: 1px solid gray;
-
+    /* border: 1px solid gray; */
+    display: flex;
+    width: 250px;
+    height: 50px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
+    border-radius: 100%;
     list-style: none;
+    color: hsl(216, 12%, 54%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 9px;
+    box-sizing: border-box;
+    background-color: hsla(217, 12%, 63%, 0.144);
+    font: 400 15px 'Overpass', sans-serif;
 }
 
 button {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     
 }
 
