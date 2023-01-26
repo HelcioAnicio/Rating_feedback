@@ -9,7 +9,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 }
 
 main {
@@ -18,7 +17,7 @@ main {
     width: 350px;
     height: 350px;
     background-color: hsl(213, 19%, 18%);
-    padding: 30px 30px;
+    padding: 20px 30px;
     box-sizing: border-box;
 }
 
@@ -27,37 +26,41 @@ main {
     border-radius: 100%;
     background-color: hsla(217, 12%, 63%, 0.144);
     padding: 10px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .title {
     /* border: 1px solid red; */
     color: white;
     font: 700 25px 'Overpass', sans-serif;
+    width: 285px;
 }
 
 
 .text {
     /* border: 1px solid green; */
-    font: 400 15px 'Overpass', sans-serif;
-    line-height: 23px;
+    margin-top: -10px;
+    font: 400 12px 'Overpass', sans-serif;
+    line-height: 20px;
     color: hsl(216, 12%, 54%);
+    width: 285px;
 }
 
 form {
     /* border: 1px solid gold; */
-    margin: 0 auto;
-    width: 250px;
-    height: 100px;
+    margin-top: 30px;
+    width: 285px;
+    height: 120px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-content:space-between;
@@ -67,9 +70,9 @@ form {
 .div_feedback {
     /* border: 1px solid gray; */
     display: flex;
-    width: 250px;
+    width: 285px;
     height: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -78,19 +81,25 @@ li {
     /* border: 1px solid pink; */
     border-radius: 100%;
     list-style: none;
-    color: hsl(216, 12%, 54%);
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    padding-top: 9px;
-    box-sizing: border-box;
-    background-color: hsla(217, 12%, 63%, 0.144);
     font: 400 15px 'Overpass', sans-serif;
+    color: hsl(216, 12%, 54%);
+    background-color: hsla(217, 12%, 63%, 0.144);
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     /* border: 1px solid orange; */
-    
+    border: none;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    width: 285px;
+    height: 40px;
 }
 
 
