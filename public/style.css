@@ -56,19 +56,18 @@ img {
 }
 
 form {
-    border: 1px solid white;
-    margin-top: 30px;
     width: 285px;
-    height: 120px;
+    height: 150px;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content:space-around;
     flex-wrap: wrap;
 }
 
 input[type="radio"] {
-    /* visibility: hidden; */
+    visibility: hidden;
+    position: absolute;
 }
 
 
@@ -83,18 +82,16 @@ label .circle {
     background-color: hsla(217, 12%, 63%, 0.144);
     width: 45px;
     height: 45px;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 label .circle:hover {
-    border: 1px solid hsla(216, 12%, 54%, 0.549);
     background-color:hsl(217, 12%, 63%); 
     color:hsl(213, 19%, 18%);
     border: 1px solid hsla(216, 12%, 54%, 0.549);
+    transition: 300ms;
 }
 
 input:checked+label .circle {
@@ -102,8 +99,6 @@ input:checked+label .circle {
     color: white;
     cursor: pointer;
     transition: 300ms;
-
-
 }
 
 .send {
@@ -123,6 +118,12 @@ input:checked+label .circle {
     transition: 300ms;
 }
 
+.send:target {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+    transition: 300ms;
+}
 
 
 /* 
