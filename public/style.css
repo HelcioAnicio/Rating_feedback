@@ -55,34 +55,28 @@ img {
     width: 285px;
 }
 
-.div_feedback {
-    /* border: 1px solid gold; */
+form {
+    border: 1px solid white;
     margin-top: 30px;
     width: 285px;
     height: 120px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    align-content:space-between;
+    align-content:space-around;
     flex-wrap: wrap;
 }
 
-.box_numbers  {
-    /* border: 1px solid gray; */
-    display: flex;
-    width: 285px;
-    height: 50px;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+input[type="radio"] {
+    /* visibility: hidden; */
 }
 
-li {
-    list-style: none;
+
+label {
+    cursor: pointer;
 }
 
-.rating {
-    /* border: 1px solid pink; */
+label .circle {
     border-radius: 100%;
     font: 400 15px 'Overpass', sans-serif;
     color: hsl(216, 12%, 54%);
@@ -93,7 +87,23 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
+
+}
+
+label .circle:hover {
+    border: 1px solid hsla(216, 12%, 54%, 0.549);
+    background-color:hsl(217, 12%, 63%); 
+    color:hsl(213, 19%, 18%);
+    border: 1px solid hsla(216, 12%, 54%, 0.549);
+}
+
+input:checked+label .circle {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+
+
 }
 
 .send {
@@ -104,20 +114,6 @@ li {
     border-radius: 30px;
     width: 285px;
     height: 40px;
-}
-
-.rating:hover {
-    border: 1px solid hsla(216, 12%, 54%, 0.549);
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-    cursor: pointer;
-    transition: 300ms;
-}
-
-.rating:focus {
-    background-color:hsl(217, 12%, 63%); 
-    color:hsl(213, 19%, 18%);
-    border: 1px solid hsla(216, 12%, 54%, 0.549);
 }
 
 .send:hover {
