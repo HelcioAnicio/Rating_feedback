@@ -11,7 +11,8 @@ body {
     justify-content: center;
 }
 
-main {
+
+.box_content {
     /* border: 1px solid white; */
     border-radius: 20px;
     width: 350px;
@@ -19,8 +20,8 @@ main {
     background-color: hsl(213, 19%, 18%);
     padding: 20px 30px;
     box-sizing: border-box;
-    /* display: none; */
 }
+
 
 .box_picture {
     /* border: 1px solid blue; */
@@ -56,7 +57,7 @@ img {
     width: 285px;
 }
 
-form {
+div {
     width: 285px;
     height: 150px;
     box-sizing: border-box;
