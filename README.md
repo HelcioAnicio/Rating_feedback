@@ -36,7 +36,6 @@ The users should be able to:
 
 - https://rating-feedback.vercel.app/
 
-
 ## My process
 
 ### Built with
